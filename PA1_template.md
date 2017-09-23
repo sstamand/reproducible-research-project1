@@ -73,14 +73,14 @@ with(data_interval, plot(average_steps~interval, type= "l",
 ![plot of chunk exploratory2](Figs/exploratory2-1.png)
 
 ```r
-print(data_interval[which.max(data_interval$interval),1])
+print(data_interval[which.max(data_interval$average_steps),1])
 ```
 
 ```
 ## # A tibble: 1 x 1
 ##   interval
 ##      <int>
-## 1     2355
+## 1      835
 ```
 
 The interval with the highest average steps across all days is 2355.

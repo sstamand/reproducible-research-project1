@@ -52,7 +52,7 @@ data_interval <- data %>% group_by(interval) %>%
 with(data_interval, plot(average_steps~interval, type= "l", 
                           main = "Average Number of Steps by Interval", 
                           ylab = "Average Across All Days", xlab = "Intervals"))
-print(data_interval[which.max(data_interval$interval),1])
+print(data_interval[which.max(data_interval$average_steps),1])
 ```
 
 The interval with the highest average steps across all days is `r paste(data_interval[which.max(data_interval$interval),1])`.
