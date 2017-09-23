@@ -1,5 +1,10 @@
 Reproducible Research: Course Project 1
-=======================================
+------------------------------------------------
+title: "Reproducible Research: Course Project 1"
+output:
+  html_document:
+      keep_md: true
+------------------------------------------------
 
 ```{r set global}
 knitr::opts_chunk$set(echo = TRUE, fig.path='Figs/')
