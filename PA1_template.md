@@ -7,7 +7,7 @@ output:
 ------------------------------------------------
 
 ```{r set global}
-knitr::opts_chunk$set(echo = TRUE, fig.path='Figs/')
+knitr::opts_chunk$set(echo = TRUE, include = TRUE, fig.path='Figs/')
 ```
 
 # Part 1: Load and Process Data
