@@ -83,7 +83,7 @@ print(data_interval[which.max(data_interval$average_steps),1])
 ## 1      835
 ```
 
-The interval with the highest average steps across all days is 2355.
+The interval with the highest average steps across all days is 835.
 
 # Part 4: Imputing missing values
 
